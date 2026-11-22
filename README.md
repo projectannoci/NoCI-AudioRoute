@@ -1,24 +1,38 @@
-# NoCI AudioRoute
+<div align="center">
 
-Pilih mikrofon dan keluaran suara Android secara terpisah. Misalnya, gunakan mikrofon HP sambil mendengarkan lewat headset. Di panel Mic EQ, kamu bisa mengatur karakter suara dan mendengar hasilnya lewat monitor.
+**P R O J E C T　 N o C I**
 
-[Download APK](./NOCI_AudioRoute_v1.0.1.apk) · [Download System Module](./NOCI_AudioRoute_System_Module_v1.0.1.zip) · [Screenshot aplikasi](https://t.me/ssanprojectannoci/2?single) · [Changelog](./CHANGELOG.md)
+# AudioRoute
 
-## Kontrol audio
+Choose what your phone records, where you hear it, and how your mic sounds.
 
-| Kontrol | Fungsi |
-|---|---|
-| Input dan output | Pilih jalur rekam dan jalur dengar. Pilihan mengikuti perangkat audio yang terdeteksi, termasuk headset kabel, USB, dan Bluetooth. |
-| Mic EQ | Atur 10 band atau mulai dari preset. Ketuk satu band dua kali untuk meresetnya. |
-| Gain | Sesuaikan level masuk dan keluar secara terpisah. |
-| Monitor | Dengarkan suara mikrofon sendiri. Gunakan headset untuk menghindari umpan balik dari speaker. |
+[Download v1.0.1](https://github.com/projectannoci/NoCI-AudioRoute/releases/tag/v1.0.1)　·　[App screenshots](https://t.me/ssanprojectannoci/2?single)　·　[Changelog](CHANGELOG.md)
 
-## Pemasangan
+</div>
 
-Untuk memasang aplikasi biasa, buka APK. Untuk memakai kontrol routing yang membutuhkan System Mode, pasang ZIP melalui pengelola modul root lalu reboot. ZIP sudah menyertakan APK yang sama. Buka AudioRoute dan periksa status **System Mode** sebelum memilih input dan output.
+---
 
-Coba rekam sampel pendek di aplikasi tujuan untuk mengecek mikrofon yang aktif. Pilihan routing bergantung pada perangkat, ROM, dan profil audio yang tersedia.
+### One mic for capture. Another device for playback.
 
-## Reset
+Keep your headphones connected for playback while recording through the phone mic. AudioRoute lets you select input and output independently from the devices Android exposes. Available routes depend on your ROM, connected hardware, and Bluetooth profile.
 
-Gunakan reset di AudioRoute untuk mematikan routing dan Mic EQ serta mengembalikan pilihan perangkat, preset, dan opsi lanjutan ke setelan awal. Untuk melepas System Mode, hapus modul melalui pengelola modul lalu reboot.
+### Inside the mic panel
+
+| Control | What it does |
+| --- | --- |
+| **10-band EQ** | Start with a preset or tune individual bands. Double-tap a band to reset it. |
+| **Input and output gain** | Set the level entering the processor and trim the signal leaving it. |
+| **Live monitor** | Listen through headphones as you adjust the mic. Using the speaker can cause feedback. |
+
+### Install
+
+| Package | When to use it |
+| --- | --- |
+| [Android app · APK](https://github.com/projectannoci/NoCI-AudioRoute/releases/download/v1.0.1/NOCI_AudioRoute_v1.0.1.apk) | Install directly to open the app and explore the mic controls. |
+| [System Mode · ZIP](https://github.com/projectannoci/NoCI-AudioRoute/releases/download/v1.0.1/NOCI_AudioRoute_System_Module_v1.0.1.zip) | For privileged routing, install through your root module manager and reboot. The ZIP includes the same APK. |
+
+Open **System Mode** in AudioRoute to check its status. After selecting a route, make a short recording in the app you plan to use.
+
+### Restore defaults
+
+Reset from AudioRoute to stop routing and Mic EQ, clear assigned device roles, and restore the default settings. To remove System Mode, uninstall the module through your root manager and reboot.

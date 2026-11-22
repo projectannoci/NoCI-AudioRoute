@@ -1,11 +1,11 @@
-# Catatan rilis
+# Release history
 
-## v1.0.1
+## [1.0.1](https://github.com/projectannoci/NoCI-AudioRoute/releases/tag/v1.0.1)
 
-Fitur yang tersedia dalam paket rilis ini.
+**Routing** — Independent capture and playback device selection, with wired, USB, and Bluetooth routes where available.
 
-- Pemilihan perangkat input dan output secara terpisah, termasuk opsi mikrofon Bluetooth SCO dan USB headset.
-- Mic EQ 10 band dengan preset, reset per band, serta pengaturan input gain dan output gain.
-- Monitor mikrofon untuk mendengarkan suara sendiri saat menyetel EQ.
-- Reset routing dan EQ dari aplikasi, termasuk pembersihan role perangkat yang pernah diterapkan.
-- Paket System Mode memuat aplikasi sebagai priv-app beserta konfigurasi izin audio dan sysconfig. APK di dalam modul identik dengan APK unduhan terpisah.
+**Mic processing** — A 10-band equalizer with presets and per-band reset, separate input and output gain, and headphone monitoring.
+
+**System Mode** — The companion module installs AudioRoute as a privileged app with audio-routing permissions and system configuration. Resetting the app clears assigned device roles and restores audio defaults.
+
+[Release assets and SHA-256 checksums](https://github.com/projectannoci/NoCI-AudioRoute/releases/tag/v1.0.1) · [App screenshots](https://t.me/ssanprojectannoci/2?single)
